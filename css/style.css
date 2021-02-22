@@ -75,7 +75,7 @@ nav a:hover, a:focus{
   z-index: 1;
 
   /*Your code here*/
-  position: relative;
+  position: absolute;
   top: -50px;
 }
 
@@ -175,9 +175,8 @@ header{
   nav{
     padding: 30px 0px;
     /*Your code here:*/
-    position:absolute;
-    right: 0;
-    vertical-align: middle;
+    text-align: right;
+    align-self: center;
   }
 
   /*Req 11*/
